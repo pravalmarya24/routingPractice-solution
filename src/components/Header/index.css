@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+
+.navBar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.wave-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 55px;
+  width: 75px;
+  justify-content: space-between;
+}
+
+.wave-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #551e53;
+}
+
+.list-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: #551e53;
+}
+
+.nav-unordered-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.nav-menu-container {
+  height: 35px;
+  width: 295px;
+}
+
+.wave-img-size {
+  height: 30px;
+  width: 30px;
+}
+
+.link-list {
+  text-decoration: none;
+}
